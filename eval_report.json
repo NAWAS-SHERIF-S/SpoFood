@@ -1,0 +1,208 @@
+{
+  "classifier_only": {
+    "macro_f1": 0.947820059876397,
+    "top1_accuracy": 0.94901996043877,
+    "per_class": {
+      "apple_fresh": {
+        "precision": 0.9749478079331941,
+        "recall": 0.9589322381930184,
+        "f1-score": 0.9668737060041408,
+        "support": 487.0
+      },
+      "apple_rotten": {
+        "precision": 0.9691056910569106,
+        "recall": 0.9490445859872612,
+        "f1-score": 0.9589702333065165,
+        "support": 628.0
+      },
+      "banana_fresh": {
+        "precision": 0.9937106918238994,
+        "recall": 0.9693251533742331,
+        "f1-score": 0.9813664596273292,
+        "support": 489.0
+      },
+      "banana_rotten": {
+        "precision": 1.0,
+        "recall": 0.9891891891891892,
+        "f1-score": 0.9945652173913043,
+        "support": 555.0
+      },
+      "bellpepper_fresh": {
+        "precision": 0.8083538083538083,
+        "recall": 0.9320113314447592,
+        "f1-score": 0.8657894736842106,
+        "support": 353.0
+      },
+      "bellpepper_rotten": {
+        "precision": 0.856020942408377,
+        "recall": 0.9185393258426966,
+        "f1-score": 0.8861788617886179,
+        "support": 356.0
+      },
+      "bitter_gourd_fresh": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 48.0
+      },
+      "bitter_gourd_rotten": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 54.0
+      },
+      "carrot_fresh": {
+        "precision": 0.9904970760233918,
+        "recall": 0.923653715064758,
+        "f1-score": 0.9559082892416225,
+        "support": 1467.0
+      },
+      "carrot_rotten": {
+        "precision": 0.7693920335429769,
+        "recall": 0.963254593175853,
+        "f1-score": 0.8554778554778555,
+        "support": 381.0
+      },
+      "cucumber_fresh": {
+        "precision": 0.9920318725099602,
+        "recall": 0.9688715953307393,
+        "f1-score": 0.9803149606299213,
+        "support": 257.0
+      },
+      "cucumber_rotten": {
+        "precision": 0.9411764705882353,
+        "recall": 0.9320388349514563,
+        "f1-score": 0.9365853658536586,
+        "support": 103.0
+      },
+      "mango_fresh": {
+        "precision": 0.9578947368421052,
+        "recall": 1.0,
+        "f1-score": 0.978494623655914,
+        "support": 91.0
+      },
+      "mango_rotten": {
+        "precision": 0.967032967032967,
+        "recall": 0.9777777777777777,
+        "f1-score": 0.9723756906077348,
+        "support": 90.0
+      },
+      "okra_fresh": {
+        "precision": 0.88,
+        "recall": 0.9777777777777777,
+        "f1-score": 0.9263157894736842,
+        "support": 45.0
+      },
+      "okra_rotten": {
+        "precision": 0.9302325581395349,
+        "recall": 0.8695652173913043,
+        "f1-score": 0.898876404494382,
+        "support": 46.0
+      },
+      "orange_fresh": {
+        "precision": 0.9904306220095693,
+        "recall": 0.9044943820224719,
+        "f1-score": 0.9455138662316477,
+        "support": 1602.0
+      },
+      "orange_rotten": {
+        "precision": 0.7876588021778584,
+        "recall": 0.9601769911504425,
+        "f1-score": 0.8654037886340977,
+        "support": 452.0
+      },
+      "potato_fresh": {
+        "precision": 0.9586206896551724,
+        "recall": 0.9858156028368794,
+        "f1-score": 0.972027972027972,
+        "support": 141.0
+      },
+      "potato_rotten": {
+        "precision": 0.9319727891156463,
+        "recall": 0.9513888888888888,
+        "f1-score": 0.9415807560137457,
+        "support": 144.0
+      },
+      "strawberry_fresh": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 147.0
+      },
+      "strawberry_rotten": {
+        "precision": 0.9782608695652174,
+        "recall": 1.0,
+        "f1-score": 0.989010989010989,
+        "support": 90.0
+      },
+      "tomato_fresh": {
+        "precision": 0.9933149823043649,
+        "recall": 0.9644902634593356,
+        "f1-score": 0.978690430065866,
+        "support": 2619.0
+      },
+      "tomato_rotten": {
+        "precision": 0.8406593406593407,
+        "recall": 0.9622641509433962,
+        "f1-score": 0.8973607038123167,
+        "support": 477.0
+      }
+    }
+  },
+  "grocery_external_type_only": {
+    "available": true,
+    "type_accuracy": 0.8994764397905759,
+    "count": 955
+  },
+  "detector": {
+    "conf_0.40": {
+      "overall": {
+        "mAP50": 0.8692734104751354,
+        "mAP50_95": 0.8189509512413149
+      }
+    }
+  },
+  "apple_smoke": [],
+  "open_world": {
+    "available": true,
+    "negative_count": 3470,
+    "detector_false_accept_rate": 0.08731988472622479,
+    "positive_count": 4366,
+    "positive_retention": 0.5950526797984426,
+    "grouped_count": 854,
+    "mean_detected_boxes_on_grouped": 3.560889929742389,
+    "negative_source": "open-images-v7"
+  },
+  "contract": {
+    "classes": [
+      "apple_fresh",
+      "apple_rotten",
+      "banana_fresh",
+      "banana_rotten",
+      "bellpepper_fresh",
+      "bellpepper_rotten",
+      "bitter_gourd_fresh",
+      "bitter_gourd_rotten",
+      "carrot_fresh",
+      "carrot_rotten",
+      "cucumber_fresh",
+      "cucumber_rotten",
+      "mango_fresh",
+      "mango_rotten",
+      "okra_fresh",
+      "okra_rotten",
+      "orange_fresh",
+      "orange_rotten",
+      "potato_fresh",
+      "potato_rotten",
+      "strawberry_fresh",
+      "strawberry_rotten",
+      "tomato_fresh",
+      "tomato_rotten"
+    ],
+    "detector_checkpoint": "yolo26n_produce_v2_1.pt",
+    "classifier_checkpoint": "dinov3_vits16_food_freshness_v2.pt",
+    "classifier_model_name": "vit_small_patch16_dinov3",
+    "classifier_image_size": 256
+  }
+}
